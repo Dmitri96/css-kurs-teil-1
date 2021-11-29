@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/*
+a:visited {
+    color: red;
+}
+*/
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+.avatar {
+    width: 200px;
+    border-radius: 100px;
+    box-shadow:4px 4px 14px gray;
+}
+
+.info {
+    text-align: center;
+}
+
+.info p {
+    color: rgb(157, 157, 157);
+    margin: 0;
+    font-style: italic;
+    text-decoration: underline;
+    /*text-transform: lowercase;*/
+    /*letter-spacing: 1px;*/
+    /*word-spacing: 10px;*/
+}
+
+.hobby {
+    /*background-color: red;
+    padding: 20px 10px;
+    border: 5px solid #000000;
+    margin: 20px;
+    border-bottom-color: blue;
+    border-left-color: green;
+    border-bottom-width: 20px;
+    border-bottom-style: dotted;*/
+}
+
+/*.box-model div {
+    float: left;
+    width: 25%;
+    background: #000;
+    height: 200px;
+    border: 5px solid red;
+    box-sizing: border-box;
+
+}*/
+
+.bg-yellow {
+    background-color: #fff9dc;
+}
+
+.bg-green {
+    background-color: #e5ffe7;
+}
+
+.bg-red {
+    background-color: #ffe5e5;
+}
+
+.card {
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+
+.hobby-list {
+    padding: 0 20px;
+    /*list-style: none;*/
+}
+
+.hobby-list li {
+    margin-bottom: 10px;
+    color: #86898f;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+/*.table td:nth-child(2),
+.table td:nth-child(1){
+    background-color: beige;
+}*/
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    margin-left: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    border: none;
+    color: #000;
+    padding: 15px 10px;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.btn {
+    background-color: #111;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
